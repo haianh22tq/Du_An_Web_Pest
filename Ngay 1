@@ -1,1 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="../../ivy/themify-icons-font/themify-icons/themify-icons.css">
+	<title>Ivy-Project</title>
 
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<img src="../giaodien/image/logo.png">
+		</div>
+		<div class="menu">
+			<li><a href="">NỮ</a>
+				<ul class="sub-menu">
+					<li><a href="cartegory.html">Hàng mới về</a></li>
+					<li><a href="">T&J</a></li>
+					<li><a href="">ÁO</a>
+						<ul>
+							<li><a href="">áo sơ mi</a></li>
+							<li><a href="">áo thun</a></li>
+							<li><a href="">áo vest</a></li>
+							<li><a href="">áo len</a></li>
+							<li><a href="">áo khoác</a></li>
+
+						</ul>
+					</li>
+					<li><a href="">QUẦN</a>
+						<ul>
+							<li><a href="">Quần sơ mi</a></li>
+							<li><a href="">Quần thun</a></li>
+							<li><a href="">Quần vest</a></li>
+							<li><a href="">Quần len</a></li>
+							<li><a href="">Quần khoác</a></li>
+
+						</ul>
+					</li>
+					<li><a href=""></a></li>
+					<li><a href=""></a></li>
+					<li><a href=""></a></li>
+
+				</ul>
+			</li>
+			<li><a href="">NAM</a></li>
+			<li><a href="">TRẺ EM</a></li>
+			<li><a href="">SALE</a></li>
+			<li><a href="">KHẨU TRANG</a></li>
+			<li><a href="">BỘ SƯU TẬP</a></li>
+			<li><a href="">THÔNG TIN</a></li>
+
+		</div>
+		<div class="others">
+			<li> <input type="text" placeholder="Tìm Kiếm"> <i class="ti-search"></i></li>
+			<li class="ti-tag"></li>
+			<li class="ti-user"></li>
+			<li class="ti-shopping-cart"></li>
+		</div>
+	</header>
+	<section id="slider">
+		<div class="aspect-ratio-169">
+			<img src="image/slide1.jpg" >
+			<img src="image/slide2.jpg" >
+			<img src="image/slide3.jpg" >
+			<img src="image/slide4.jpg	" >
+
+		</div>
+
+		<div class="dot-container">
+			<div class="dot active"></div>
+			<div class="dot "></div>
+			<div class="dot "></div>
+			<div class="dot "></div>
+
+		</div>
+
+	</section>
+	<section id="site-bottom">
+		<div class="left">
+			<div class="img-f">
+				<img src="image/logo.png">
+				<img src="image/img-congthuong.png">
+				<img src="image/site_bot.png"> 
+			</div>
+		<br><p>Công ty Cổ phần Dự Kim với số đăng ký kinh doanh: 0105777650</p> <br>
+		<p>Địa chỉ đăng ký: Tổ dân phố Tháp, P.Đại Mỗ, Q.Nam Từ Liêm, TP.Hà Nội, Việt Nam</p> <br>
+		<p>Số điện thoại: 0243 205 2222/ 090 589 8683</p><br>	
+		<p>Email: cskh@ivy.com.vn</p>
+			<div class="icon-bottom">
+
+			</div>
+
+		</div>
+		<div class="left-">
+			<h1>Giới thiệu</h1><br>
+			<a href=""><p>Về IVY moda</p></a> <br>
+			<a href=""><p>Tuyển dụng</p></a> <br>
+			<a href=""><p>Hệ thống cửa hàng</p></a>
+
+
+		</div>
+		<div class="main">
+			<h1>Dịch vụ khách hàng</h1><br>
+			<a href=""><p>Chính sách điều khoản</p></a><br>
+			<a href=""><p>Hướng dẫn mua hàng</p></a><br>
+			<a href=""><p>Chính sách thanh toán</p></a><br>
+			<a href=""><p>Chính sách đổi trả</p></a><br>
+			<a href=""><p>Chính sách bảo hành</p></a><br>
+			<a href=""><p></p></a>
+			<a href=""><p></p></a>
+
+		</div>
+		<div class="right-">
+			<h1>Liên hệ</h1><br>
+			<a href=""><p>Hotline</p></a><br>
+			<a href=""><p>Email</p></a><br>
+			<a href=""><p>Live Chat</p></a><br>
+			<a href=""><p>Messenger</p></a><br>
+			<a href=""><p>Lien He</p></a><br>
+
+		</div>
+		<div class="right">
+			<div class="border-email">
+				<p class="title-email">Nhận thông tin các chương trình của IVY moda</p>
+				<input type="text" placeholder="Nhập địa chỉ email">	
+				<a href="">Đăng Ký</a>
+			</div>
+			<div class="download-app">
+				<h1>DownLoad App</h1>
+				<div class="img-app">
+					<a href=""><img src="image/apple.png" ></a>
+					<a href=""><img src="image/gplay.png" ></a>
+
+				</div>
+
+
+			</div>
+
+
+		</div>
+
+	</section>
+
+
+
+
+
+	<script src="js/script.js"></script>
+
+</body>
+
+	<!-- <script>
+		const imgPosition = document.querySelectorAll(".aspect-ratio-169 img")
+		const imageContainer = document.querySelector(".aspect-ratio-169")
+		const dotItem = document.querySelectorAll(".dot")
+		let imgNumber = imgPosition.length	
+		let index = 0
+			// console.log(imgPosition)
+		imgPosition.forEach(function(image, index){
+			image.style.left = index *100 + "%"
+			dotItem[index].addEventListener("click", function(){
+			slider1(index)
+			})
+		})
+
+		function imgSlide (){
+			index++;
+			console.log(index)
+			if (index >= imgNumber) {index = 0}
+			slider1(index)
+			
+		}
+		function slider1 (index){
+			imageContainer.style.left = "-" + index*100 + "%"
+			const dotActive = document.querySelector(".active")
+			dotActive.classList.remove('active')
+			dotItem[index].classList.add("active")
+			
+		}
+		setInterval(imgSlide,5000)
+	</script>  -->
+
+</html>
